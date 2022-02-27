@@ -1,0 +1,62 @@
+/*
+  white: #FFFFFF
+  accent 1: #195E83
+  accent 2: #825419
+*/
+
+h1, h2, h3 {
+	color: #195E83;
+}
+
+h1 {
+	text-align: center;
+}
+
+table,  th, td{
+	border: 7px inset #825419;
+	padding: 15px	
+}
+
+table {
+	border-collapse: collapse;
+}
+
+a:link {
+	color: #195E83;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #195E83;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #825419;
+}
+
+p.text_content {
+	background-color: #195E83;
+	color: white;
+	padding: 15px;
+	width: 680px;
+	border: 10px solid;
+	border-color: #825419;
+	margin: 50px 25px 50px 30px;
+}
+
+div {
+	background-color: #195E83;
+	background-position: center;
+	width:646px;
+	padding:15px;
+	border: 20px double #825419 ;
+	margin: 50px
+}
+
+body {
+	padding: 50px;
+	font-size: 20px
+}

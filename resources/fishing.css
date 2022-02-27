@@ -1,0 +1,86 @@
+/*
+foreground : #195359;
+background: #91F298;
+3d effect #2D593C;
+link:#593419;
+link hover #5B495A;
+table background #4FFFF9;
+table headeer background: #153842;
+div background: #54E8B9;
+*/
+
+body{
+	background-color: #91F298; 
+	font-size: 20px;
+	padding: 50px
+	
+}
+
+a{
+	color: #593419;
+	font-weight: bold;
+}
+
+a:visited {
+	color: #593419;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #A423A6;
+	font-size: 25PX
+}
+
+h1, h2, h3{
+	color: #195359;
+	text-shadow: 2px 2px 5px #2D593C;
+}
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+table, th, td {
+	border: 10px outset #195359;
+	padding: 10px;
+}
+
+table{
+	border-collapse: collapse;
+	background-color: #4FFFF9;
+}
+
+th{
+	background-color: #153842;
+	color: #FFFFFF
+}
+
+div {
+	background-color: #54E8B9;
+	background-position: center;
+	width: 710px;
+	padding: 15px;
+	border: 25px solid #195359;
+	margin-top: 25px
+}
+
+p.fish {
+	background-color: #195359;
+	color: #FFFFFF;
+	padding:10px;
+	width:510px;
+	border: 10px groove;
+	border-color: #54E8B9;
+	margin-top: 5px
+}
+
+p.river {
+	background-color: #195359;
+	color: #FFFFFF;
+	padding:10px;
+	width:440px;
+	border: 10px groove;
+	border-color: #54E8B9;
+	margin-top: 5px
+}
